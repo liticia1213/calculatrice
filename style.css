@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0%;
+}
+body {
+  background-color: hsl(225, 21%, 49%);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+.theme {
+  background-color: hsl(223, 31%, 20%);
+  height: 25px;
+  width: 70px;
+  border-radius: 20px;
+  display: flex;
+
+  align-items: center;
+}
+.selecteur {
+  height: 17px;
+  width: 17px;
+  background-color: hsl(6, 63%, 50%);
+  border-radius: 50%;
+  margin-left: 5px;
+}
+#result {
+  background-color: hsl(224, 36%, 15%);
+  height: 50px;
+  width: 40%;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-size: 30px;
+  padding: 20px;
+  margin: 10px;
+}
+.button-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+.deux {
+  grid-column: span 2;
+}
+.white {
+  border: none;
+  background-color: hsl(0, 15%, 83%);
+
+  border-radius: 15px;
+  color: hsl(223, 31%, 20%);
+  font-weight: 600;
+  font-size: 30px;
+}
+.blue {
+  border: none;
+  background-color: hsl(225, 21%, 49%);
+  border-radius: 15px;
+  color: white;
+  font-weight: 600;
+  font-size: 30px;
+}
+.red {
+  border: none;
+  background-color: hsl(6, 70%, 34%);
+  border-radius: 15px;
+  color: white;
+  font-weight: 600;
+  font-size: 30px;
+}
+.blues {
+  border: none;
+  background-color: hsl(225, 21%, 49%);
+  border-radius: 15px;
+  color: white;
+  font-weight: 600;
+  font-size: 30px;
+}
+.button-container {
+  width: 40%;
+  padding: 30px;
+  background-color: hsl(224, 36%, 15%);
+  border-radius: 10px;
+}
+.bigcontainer {
+  display: flex;
+  flex-direction: column;
+}
+.tout {
+  display: flex;
+  justify-content: center;
+  gap: 400px;
+}
+.ligne {
+  display: flex;
+  gap: 10px;
+  margin-left: 10px;
+}
+.te {
+  margin-left: 8px;
+}
+button:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+#result {
+  text-align: right;
+  
+}
